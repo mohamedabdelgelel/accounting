@@ -1,0 +1,89 @@
+/*================================================================================
+	Item Name: Robust - Responsive Admin Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+A FILE FOR RTL SUPPORT RELATED ONLY
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@font-face {
+  font-family: 'Tajawal-Regular';
+  src: url('../fonts/Tajawal-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Tajawal-Bold';
+  src: url('../fonts/Tajawal-Bold.ttf');
+}
+
+body {
+	font-family: 'Tajawal-Regular';
+}
+
+.font-theme {
+	font-family: 'Tajawal-Regular' !important;
+}
+
+.ls-0 {
+	letter-spacing: 0 !important;
+}
+
+.main-menu.menu-dark .navigation > li > a i {
+	top: 5px;
+}
+
+.btn-icon-text i {
+	line-height: 1 !important;
+	position: relative;
+	top: 2px;
+}
+
+.custom-control-label:before {
+	background: #dee2e6;
+}
+
+.bootstrap-touchspin {
+	flex-direction: row-reverse;
+}
+
+.bootstrap-touchspin-up {
+	border-radius: 0 .21rem .21rem 0 !important;
+}
+
+.bootstrap-touchspin-down {
+	border-radius: .21rem 0 0 .21rem !important;
+}
+
+.table-responsive .table {
+	min-width: 800px;
+}
+
+.table thead th {
+	border-bottom: 1px solid #e3ebf3;
+}
+
+.table th, .table td {
+	vertical-align: middle;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    margin: 0 5px;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+	margin-top: 0;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-right: 0.5em;
+    margin-left: 0;
+}

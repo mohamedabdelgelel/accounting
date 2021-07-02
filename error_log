@@ -1,0 +1,1 @@
+[04-Mar-2021 17:28:43 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/codeitco/accountant.3codeit.com/app/Exceptions/Handler.php on line 8
